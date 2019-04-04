@@ -67,6 +67,8 @@ class Beranda extends CI_Controller {
         $data['pengguna'] = $this->Pengguna->MiniProfil($this->session->userdata('Pengguna'));
         $data['aplikasi'] = $this->Aplikasi->AmbilDataSatuan(2);
         $data['perusahaan'] = $this->Perusahaan->AmbilData();
+
+        $data['notifikasi_total'] = 0;
         
         $abjad = range('A', 'E');
         
@@ -312,6 +314,8 @@ class Beranda extends CI_Controller {
             $data['pengguna'] = $this->Pengguna->MiniProfil($this->session->userdata('Pengguna'));
             $data['aplikasi'] = $this->Aplikasi->AmbilDataSatuan(2);
             $data['perusahaan'] = $this->Perusahaan->AmbilData();
+
+            $data['notifikasi_total'] = 0;
                         
             $this->load->model('Pelanggan/Pelanggan');
 
@@ -342,6 +346,8 @@ class Beranda extends CI_Controller {
             $data['pengguna'] = $this->Pengguna->MiniProfil($this->session->userdata('Pengguna'));
             $data['aplikasi'] = $this->Aplikasi->AmbilDataSatuan(2);
             $data['perusahaan'] = $this->Perusahaan->AmbilData();
+
+            $data['notifikasi_total'] = 0;
             
             if (empty($bulan)) {
                 if (date('d') <= 26) {
@@ -390,6 +396,8 @@ class Beranda extends CI_Controller {
             $data['aplikasi'] = $this->Aplikasi->AmbilDataSatuan(2);
             $data['perusahaan'] = $this->Perusahaan->AmbilData();
 
+            $data['notifikasi_total'] = 0;
+
             if (empty($tanggal_awal)) {
                 $tanggal_awal = date('d/m/Y', strtotime('-1 day', strtotime(date('Y-m-d'))));
             }
@@ -437,6 +445,8 @@ class Beranda extends CI_Controller {
             $data['pengguna'] = $this->Pengguna->MiniProfil($this->session->userdata('Pengguna'));
             $data['aplikasi'] = $this->Aplikasi->AmbilDataSatuan(2);
             $data['perusahaan'] = $this->Perusahaan->AmbilData();
+
+            $data['notifikasi_total'] = 0;
             
             $data['data_bobot'] = $this->AplikasiBobot->AmbilDataSemua(2);
             $data['data_tabel'] = $this->PelangganNilai->AmbilDataSemua($status, $predikat);
@@ -464,6 +474,8 @@ class Beranda extends CI_Controller {
             $data['pengguna'] = $this->Pengguna->MiniProfil($this->session->userdata('Pengguna'));
             $data['aplikasi'] = $this->Aplikasi->AmbilDataSatuan(2);
             $data['perusahaan'] = $this->Perusahaan->AmbilData();
+
+            $data['notifikasi_total'] = 0;
                         
             $this->load->model('Rayon');
 
@@ -492,6 +504,8 @@ class Beranda extends CI_Controller {
             $data['pengguna'] = $this->Pengguna->MiniProfil($this->session->userdata('Pengguna'));
             $data['aplikasi'] = $this->Aplikasi->AmbilDataSatuan(2);
             $data['perusahaan'] = $this->Perusahaan->AmbilData();
+
+            $data['notifikasi_total'] = 0;
                         
             $this->load->model('Penjual');
 
@@ -527,6 +541,8 @@ class Beranda extends CI_Controller {
             $data['pengguna'] = $this->Pengguna->MiniProfil($this->session->userdata('Pengguna'));
             $data['aplikasi'] = $this->Aplikasi->AmbilDataSatuan(2);
             $data['perusahaan'] = $this->Perusahaan->AmbilData();
+
+            $data['notifikasi_total'] = 0;
 
             if (empty($tanggal_awal)) {
                 $tanggal_awal = date('d/m/Y', strtotime('-1 day', strtotime(date('Y-m-d'))));
@@ -574,6 +590,8 @@ class Beranda extends CI_Controller {
             $data['aplikasi'] = $this->Aplikasi->AmbilDataSatuan(2);
             $data['perusahaan'] = $this->Perusahaan->AmbilData();
 
+            $data['notifikasi_total'] = 0;
+
             if (empty($tanggal_awal)) {
                 $tanggal_awal = date('d/m/Y', strtotime('-1 day', strtotime(date('Y-m-d'))));
             }
@@ -618,6 +636,8 @@ class Beranda extends CI_Controller {
             $data['pengguna'] = $this->Pengguna->MiniProfil($this->session->userdata('Pengguna'));
             $data['aplikasi'] = $this->Aplikasi->AmbilDataSatuan(2);
             $data['perusahaan'] = $this->Perusahaan->AmbilData();
+
+            $data['notifikasi_total'] = 0;
 
             if (empty($tanggal_awal)) {
                 $tanggal_awal = date('d/m/Y', strtotime('-1 day', strtotime(date('Y-m-d'))));
