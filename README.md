@@ -9,4 +9,4 @@ Aplikasi ini di kembangkang menggunakan :
 - AdminLTE 2
 - MySQL
 
-Copyrigt 2018 TETAP JAYA GRUP - MYP100JECT
+Copyrigt © 2018 TETAP JAYA GRUP - MYP100JECT
