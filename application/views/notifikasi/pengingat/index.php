@@ -1,5 +1,5 @@
 <?php
-    if ($notifikasi > 0) {
+    if ($notifikasi_total > 0) {
 ?>
         <div class="modal fade" id="modal-pengingat">
             <div class="modal-dialog">

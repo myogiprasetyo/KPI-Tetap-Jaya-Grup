@@ -3,13 +3,13 @@
         <i class="fa fa-bell-o"></i>
         <span class="label label-default">
 <?php
-            echo $notifikasi;
+            echo $notifikasi_total;
 ?>
         </span>
     </a>
 
 <?php
-    if ($notifikasi > 0) {
+    if ($notifikasi_total > 0) {
 ?>
         <ul class="dropdown-menu">
             <li class="header">
