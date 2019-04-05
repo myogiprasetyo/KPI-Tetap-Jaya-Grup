@@ -1,10 +1,9 @@
 # KPI Tetap Jaya Grup
-**KPI Tetap Jaya Grup** adalah sebuah Sistem Key Performance Indicator (KPI) yang digunakan oleh perusahaan Tetap Jaya Grup sebagai parameter penilaian kinerja. Pada sistem ini terdapat beberapa sub-sistem yang diantaranya :
+**KPI Tetap Jaya Grup** adalah sebuah Sistem Key Performance Indicator (KPI) yang digunakan oleh perusahaan Tetap Jaya Grup sebagai parameter penilaian kinerja. Pada sistem ini terdapat beberapa sub-sistem yang saling terhubung dan berdiri sendiri, diantaranya :
 - KPI Pemasok
 - KPI Pelanggan
 - KPI Karywan
 - KPI Team
-Masing - masing sub-sistem saling terhubung dan berdiri sendiri. 
 
 ## Build with
 - [AdminLTE v2.4.10](https://github.com/myp100ject/AdminLTE)
