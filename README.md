@@ -49,4 +49,4 @@
 - [WhatsApp](https://api.whatsapp.com/send?phone=6282269280144)
 
 ## Reseved by
-**Tetap Jaya Grup** Copyrigt © 2018 - 2019.
+**Tetap Jaya Grup** Copyright © 2018 - 2019.
