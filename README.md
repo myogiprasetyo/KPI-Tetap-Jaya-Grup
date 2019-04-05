@@ -7,19 +7,18 @@
 
 ## Preview Page
 ### Login
-![Login](https://colorlib.com/wp/wp-content/uploads/sites/2/adminator-free-admin-dashboard-template.jpg)
-
-- Menu Utama
+![Login](https://github.com/myp100ject/KPI-Tetap-Jaya-Grup/blob/master/preview/Login.png)
+### Menu Utama
+![Login](https://github.com/myp100ject/KPI-Tetap-Jaya-Grup/blob/master/preview/MenuUtama.png)
+### KPI Pemasok
 (Coming Soon).
-- KPI Pemasok
+### KPI Pelanggan
 (Coming Soon).
-- KPI Pelanggan
+### KPI Karyawan
 (Coming Soon).
-- KPI Karyawan
+### KPI Team
 (Coming Soon).
-- KPI Team
-(Coming Soon).
-- Pengaturan
+### Pengaturan
 (Coming Soon).
 
 ## How to install
