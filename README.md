@@ -5,7 +5,34 @@
 - KPI Karywan
 - KPI Team
 
-## Build with
+## Preview Page
+### Login
+![Login](https://colorlib.com/wp/wp-content/uploads/sites/2/adminator-free-admin-dashboard-template.jpg)
+
+- Menu Utama
+(Coming Soon).
+- KPI Pemasok
+(Coming Soon).
+- KPI Pelanggan
+(Coming Soon).
+- KPI Karyawan
+(Coming Soon).
+- KPI Team
+(Coming Soon).
+- Pengaturan
+(Coming Soon).
+
+## How to install
+- Windows
+(Coming Soon).
+
+- Linux
+(Coming Soon).
+
+## Android Package
+(Coming Soon).
+
+## Built with
 - [AdminLTE v2.4.10](https://github.com/myp100ject/AdminLTE)
 - [JQuery](https://github.com/myp100ject/jquery)
 - [JQuery UI](http://jqueryui.com)
@@ -15,9 +42,6 @@
 - [CodeIgniter v3.1.10](https://github.com/myp100ject/CodeIgniter)
 - [MySQL v10.3.13-MariaDB](https://www.mysql.com)
 
-## Preview
-(Coming Soon).
-
 ## Developer
 **MYP100JECT**
 - [Facebook](https://facebook.com/myp100ject)
@@ -26,5 +50,4 @@
 - [WhatsApp](https://api.whatsapp.com/send?phone=6282269280144)
 
 ## Reseved by
-**Tetap Jaya Grup**
-Copyrigt © 2018 - 2019.
+**Tetap Jaya Grup** Copyrigt © 2018 - 2019.
