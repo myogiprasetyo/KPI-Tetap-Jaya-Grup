@@ -29,7 +29,7 @@
 *(Coming Soon)*
 
 ## Android Package
-(Coming Soon).
+*(Coming Soon)*
 
 ## Built with
 - [AdminLTE v2.4.10](https://github.com/myp100ject/AdminLTE)
